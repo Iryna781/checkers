@@ -133,7 +133,6 @@ function resetBorders() {
 
 function resetSelectedPieceProperties() {
   selectedPiece.pieceId = -1;
-  selectedPiece.pieceId = -1;
   selectedPiece.isKing = false;
   selectedPiece.seventhSpace = false;
   selectedPiece.ninthSpace = false;
