@@ -286,15 +286,15 @@ function checkPieceConditions() {
     givePieceBorder();
   } else {
     if (turn) {
-      selectedPiece.minusSeventhSpace = true;
-      selectedPiece.minusNinthSpace = true;
-      selectedPiece.minusFourteenthSpace = false;
-      selectedPiece.minusEighteenthSpace = false;
+      selectedPiece.minusSeventhSpace = false;
+      selectedPiece.minusNinthSpace = false;
+      // selectedPiece.minusFourteenthSpace = false;
+      // selectedPiece.minusEighteenthSpace = false;
     } else {
-      selectedPiece.seventhSpace = true;
-      selectedPiece.ninthSpace = true;
-      selectedPiece.fourteenthSpace = false;
-      selectedPiece.eighteenthSpace = false;
+      selectedPiece.seventhSpace = false;
+      selectedPiece.ninthSpace = false;
+      // selectedPiece.fourteenthSpace = false;
+      // selectedPiece.eighteenthSpace = false;
     }
     givePieceBorder();
   }
