@@ -287,13 +287,9 @@ function checkPieceConditions() {
     if (turn) {
       selectedPiece.minusSeventhSpace = false;
       selectedPiece.minusNinthSpace = false;
-      // selectedPiece.minusFourteenthSpace = false;
-      // selectedPiece.minusEighteenthSpace = false;
     } else {
       selectedPiece.seventhSpace = false;
       selectedPiece.ninthSpace = false;
-      // selectedPiece.fourteenthSpace = false;
-      // selectedPiece.eighteenthSpace = false;
     }
     givePieceBorder();
   }
